@@ -8,149 +8,148 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 400;
+    background-color: var(--cor-de-fundo); /*cor de fundo*/
+    color: var(--branco-principal); /*mudaa cor da fonte*/
+    font-family: var(--fonte-principal); /*estilo da fonte*/
+    font-size: 16px; /*tamanho da fonte*/
+    font-weight: 400; /*"peso" da fonte, negrito*/
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; /*margem*/
+    padding: 0; /*espaçamento interno*/
 }
 
 .principal {
-    background-image: url("Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    align-items: center;
-    text-align: center;
+    background-image: url("Background.png"); /*imagem de fundo*/
+    background-repeat: no-repeat; /*não repetir a imagem*/
+    background-size: contain; /*não repeete*/
+    align-items: center;/*alinhamento de itens no centro*/
+    text-align: center;/*alinhamento de textos no centro*/
 }
 
 .container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    height: 100vh;/*altura*/
+    display: grid;/*configuração para organizar os elementos*/
+    grid-template-columns: 50% 50%;/*divide a página no meio, vertical*/
 }
 
 .container__botao {
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
-    text-decoration: none;
-    margin-bottom: 1em;
+    background-color: var(--botao-azul);/*cor de fundo*/
+    border-radius: 5px;/*bodas arredondadas*/
+    padding: 1em;/*espaçamento*/
+    color: var(--branco-principal);/*cor do botão*/
+    display: block; /*como os elementos vão ser distriuidos*/
+    text-decoration: none; /*sem decoração*/
+    margin-bottom: 1em;/*margem inferior*/
 }
 
 .botao_secundario {
-    background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    background-color: transparent; /*cor de fundo*/
+    border: 2px solid var(--branco-principal) /*borda 2px*/
 }
 
 .container__aviso {
-    font-size: 12px;
-    color: var(--cinza-secundario);
+    font-size: 12px;  /*tamanho da fonte*/
+    color: var(--cinza-secundario);  /*cor*/
 }
 
 .container__titulo {
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 28px;  /*tamanho da fonte*/
+    font-weight: 700; /*negrito*/
 }
 
 .container__imagem {
-    margin: 1em 0 2em 0;
+    margin: 1em 0 2em 0;  /*margem*/
 }
 
 .container__caixa {
-    margin: 0 6em;
+    margin: 0 6em;  /*margem*/
 }
 
 .secundario__imagem {
-    width: 80%;
+    width: 80%;  /*largura*/
 }
 
 .secundario {
-    align-items: center;
-    margin: 0 10em;
+    align-items: center; /*alinhar item no meio*/
+    margin: 0 10em; /*margem*/
 }
 
 .descricao__titulo {
-    font-weight: 700;
-    font-size: 48px;
-    color: var(--branco-principal);
-    margin-bottom: 0.1em;
+    font-weight: 700; /* "negrito" */
+    font-size: 48px; /*tamanho da fonte*/
+    color: var(--branco-principal); /*cor da fonte*/
+    margin-bottom: 0.1em; /*margem inferior*/
 }
 
 .descricao__texto {
-    color: var(--cinza-secundario);
+    color: var(--cinza-secundario); /*cor texto*/
 }
 
 .secundario__botao {
-    display: inline-block;
-    margin-top: 1em;
+    display: inline-block; /*como os elementos serao distribuidos*/
+    margin-top: 1em; /*margem superior*/
 }
 
 .container__descricao {
-    padding: 2em;
+    padding: 2em; /*espaçamento*/
 }
 
 .dispositivos__lista {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+    display: flex;/*como os elementos vão ser distribuidos*/
+    justify-content: center; /*como vão ser distribuidos os espaços ao redor dos itens*/
+    list-style-type: none; /*marcador da lista*/
     margin: 5em 0;
 }
 
 .dispositivos {
-    text-align: center;
+    text-align: center; /*centraliza o texto*/
 }
 
 .dispositivos__titulo {
-    font-size: 48px;
-    color: var(--branco-principal);
+    font-size: 48px; /*tamanho da fonte*/
+    color: var(--branco-principal); /*cor da fonte - título*/
 }
 
 .lista__item {
-    font-size: 32px;
-    color: var(--branco-principal);
+    font-size: 32px; /*tamanho da fonte*/
+    color: var(--branco-principal); /*cor da fonte*/
 }
 
 .rodape {
-    text-align: center;
-    margin: 5em 3em;
+    text-align: center; /*centraliza o texto*/
+    margin: 5em 3em; /*mrgem*/
 }
 
 .rodape__lista {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin-top: 1em;
+    display: flex; /*distribuição dos elementos*/
+    justify-content: center; /*como vãoser distribuidos os espaçõs ao redor dos itens*/
+    list-style-type: none; /*cor de fundo*/
+    margin-top: 1em; /*margem superior*/
 }
 
 .lista__link a{
-    text-decoration: none;
-    color: var(--branco-principal);
-    margin-left: 1em;
+    text-decoration: none; /*sem decoração (itálico, negrito, etc...)*/
+    color: var(--branco-principal); /*cor do texto*/
+    margin-left: 1em; /*mrgem esquerda*/
 }
 
 .rodape__texto {
-    margin: 1em 0;
-    color: var(--cinza-secundario);
-    font-size: 14px;
+    margin: 1em 0; /*margem*/
+    color: var(--cinza-secundario); /*cor da fonte*/
+    font-size: 14px; /*tamanho da fonte*/
 }
 
 .lista__link a:hover {
-    color: var(--botao-azul);
+    color: var(--botao-azul);  /*cor*/
 }
 
 .lista__link a:active {
-    color: purple;
+    color: purple; /*cor*/
 }
 
 .container__botao:hover {
-    background-color: var(--botao-azul-efeito);
-    color: var(--cor-de-fundo);
+    background-color: var(--botao-azul-efeito); /*cor de fundo*/
+    color: var(--cor-de-fundo); /*cor*/
 }
-
