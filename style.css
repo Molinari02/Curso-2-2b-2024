@@ -124,7 +124,7 @@ body {
 
 .rodape__lista {
     display: flex; /*distribuição dos elementos*/
-    justify-content: center; /*como vãoser distribuidos os espaçõs ao redor dos itens*/
+    justify-content: center; /*como vão ser distribuidos os espaçõs ao redor dos itens*/
     list-style-type: none; /*cor de fundo*/
     margin-top: 1em; /*margem superior*/
 }
